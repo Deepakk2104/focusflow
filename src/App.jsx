@@ -6,8 +6,9 @@ function App() {
   return (
     <Router>
       <Routes>
+        {" "}
+        // Define application routes
         <Route path="/" element={<Login />} />
-        
       </Routes>
     </Router>
   );
